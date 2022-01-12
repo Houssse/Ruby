@@ -15,8 +15,8 @@ class Item
     @name   = options[:name]
   end
 
-  attr_reader :real_price, :name
-  attr_writer :price
+  attr_reader :real_price, :name, :weight
+  attr_writer :price, :weight
 
   def info
     yield(price)
