@@ -9,5 +9,5 @@ cart.read_from_file
 begin
   cart.save_to_file
 rescue Cart::ItemNotSupported
-  puts "One of your items is virtual, Catr doesn't supprot saving virtual items yet"
+  puts "One of items you're trying to save is not supported the Cart. Unsupproted iten classes are: #{Cart::UNSUPPORTED_ITEMS}"
 end
