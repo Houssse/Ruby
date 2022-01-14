@@ -1,3 +1,4 @@
+require_relative "string"
 require_relative "item_container"
 require_relative "order"
 require_relative "cart"
